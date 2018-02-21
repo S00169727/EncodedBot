@@ -8,6 +8,6 @@ namespace EncodedBot.Command_Handler
     class CommandHandler
     {
         DiscordSocketClient _client;
-
+        CommandHandler _service;
     }
 }
