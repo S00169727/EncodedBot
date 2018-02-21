@@ -21,7 +21,6 @@ namespace EncodedBot.Init
             }
 
             if (!File.Exists($"{_configPath}/{_configFile}"))
-
             {
                 bot = new BotStartup();
 
