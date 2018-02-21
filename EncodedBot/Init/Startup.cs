@@ -11,7 +11,7 @@ namespace EncodedBot.Init
         private const string _configPath = "Resources";
         private const string _configFile = "config.json";
 
-        static BotStartup bot;
+        public static BotStartup bot;
 
         static Startup()
         {
