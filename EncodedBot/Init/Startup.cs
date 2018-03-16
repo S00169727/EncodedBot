@@ -19,7 +19,7 @@ namespace EncodedBot.Init
             {
                 Directory.CreateDirectory(_configPath);
             }
-
+            
             if (!File.Exists($"{_configPath}/{_configFile}"))
             {
                 bot = new BotStartup();

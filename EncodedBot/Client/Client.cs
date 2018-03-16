@@ -4,8 +4,9 @@ using System.Text;
 
 namespace EncodedBot.Users
 {
-    class User : Userbase
+    class Client
     {
-
+        public ulong ID { get; set; }
+        public uint Tokens { get; set; }
     }
 }
